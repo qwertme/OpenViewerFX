@@ -1,0 +1,95 @@
+/*
+ * ===========================================
+ * Java Pdf Extraction Decoding Access Library
+ * ===========================================
+ *
+ * Project Info:  http://www.idrsolutions.com
+ * Help section for developers at http://www.idrsolutions.com/java-pdf-library-support/
+ *
+ * List of all example and a link to zip at http://www.idrsolutions.com/java-code-examples-for-pdf-files/
+ *
+ * (C) Copyright 1997-2014, IDRsolutions and Contributors.
+ *
+ * 	This file is part of JPedal
+ *
+     This library is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License as published by the Free Software Foundation; either
+    version 2.1 of the License, or (at your option) any later version.
+
+    This library is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public
+    License along with this library; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+
+ *
+ *
+ * ---------------
+ * JavaFXFormsCSS.css
+ * ---------------
+*/
+
+/* 
+    Author     : Simon
+    Default CSS values for forms.
+    Note that so it doesn't affect the GUI use #PdfDecoderFX before the control class, or give it a custom style class
+*/
+
+
+.popupAnnot{
+    -fx-border-radius:5px; 
+    -fx-border-style: solid; 
+    -fx-border-width:2px;
+    -fx-background-radius:5px;
+    -fx-background-color:linear-gradient(rgb(238,238,238) 0%, rgb(204,204,204) 100%);
+}
+
+.popupAnnot .dragbar{
+    -fx-cursor:move;
+    -fx-fill-radius:5px;
+}
+
+.formsMultiLine .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.formsMultiLine .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+.formsMultiLine .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+
+.formsSingleline{
+    -fx-padding:0;
+}
+
+.formsListBox .list-cell {
+    -fx-background-color:transparent;
+}
+
+.formsListBox .list-cell:selected {
+    -fx-background-color:cornflowerblue;
+    -fx-text-fill:black;
+}
+
+.formsComboBox .text-field{
+    -fx-background-color:transparent;
+    -fx-padding:0;
+}
+
+.formsComboBox .arrow-button{
+    -fx-padding:2;
+    -fx-border-style:solid;
+    -fx-border-color:#f0f0f0;
+    -fx-border-width:1;
+    -fx-border-radius:0;
+    -fx-background-radius:0;
+    -fx-background-color:#f0f0f0;
+}
