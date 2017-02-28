@@ -1,4 +1,4 @@
-This is the last version of OpenViewerFX that included the image processing classes (notably the PNG Quantizer)
+This is the last version of OpenViewerFX that included the image processing classes (notably the PNG Quantizer) that are now part of JDeli
 
 http://mvnrepository.com/artifact/org.jpedal/OpenViewerFX/6.6.14
 
